@@ -9,6 +9,6 @@ function App() {
       <FunctionalGreetingWithProps greeting="nice to meet You!" name="Mike" age="32" />
     </div>
   );
-}
+} 
 
 export default App;
