@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
-import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps"
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreetingWithProps greeting="nice to meet You!" name="Mike" age="32" />
+      <NestingComponents />
     </div>
   );
 } 
